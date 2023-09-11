@@ -6,7 +6,7 @@ import Connections from './database/Connection.js';
 import  Routes  from './Routes/Routes.js';
 const app =express();
 app.use(bodyParser.json());
-app.use( "*", cors({origin: ["http://localhost:3000"], credentials: true }));
+app.use( "*", cors({origin: ["https://tourfrontend-3dea.onrender.com"], credentials: true }));
 
 
 
